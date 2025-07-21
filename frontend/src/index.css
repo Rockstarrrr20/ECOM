@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* this is for getting an underline in navbar whenever we click any link like home,collection,about etc */
+a.active hr{
+    display: block;
+}
+*{
+    font-family: Outfit;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: white;
+
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+  
